@@ -1,37 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class = "html" lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>yourname.</title>
+    <title>Luke Aulbert </title>
     <link rel="stylesheet" href="Bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="bootstraps.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
 </head>
-<img src="profile image.jfif" alt="Girl in a jacket">
 <body>
-<div id="loading">
-    <div id="spinner"></div>
-</div>
+
 <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
-    <div id="title">Luke Aulbert </div><br>
-    
-<div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+    <div class="topnav">
+        <a href="#skills"> Javascript,HTML,CSS,Node </a>
+        <a href="#work" style="margin:0px 60px;">works</a>
+        <a href="#contact">contact</a>
+    </div>
+        
 </div>
 
-<center>
-    <div id="middle">
 
-    </div>
-</center>
-
+<div class="grid-container">
 <div id="portfolio">
     <div id="skills">
         <h1>Skills.</h1>
@@ -46,22 +40,22 @@
         <div class="project">
             <h2>Javascript </h2>
             <div>Worked on Creating a Javascript Clock. Utilized CSS and HTML. </div>
-            <a href="https://codepen.io/ScorpionJungle/pen/XWJqyNK" class="button">Node JS Project</a>
+            <a href="https://codepen.io/ScorpionJungle/pen/XWJqyNK" class="button1">Node JS Project</a>
         </div>
 
         <div class="project">
             <h2>Hackathon Project </h2>
             <div>Participated in a Hackathon involving stocks. Creating an application in showing stocks in real time.
             </div>
-            <button class="button">visit project</button>
-            <button class="button">code</button>
+            <a href="something" class="button1">View Project</a>
+
         </div>
 
         <div class="project">B
             <h2>Node.Js Web Scraper</h2>
             <div>Made a web scraper with Node.JS a backend javascript framework.
             </div>
-            <a href="https://github.com/Hijenx" class="button">Node JS Project</a>
+            <a href="https://github.com/Hijenx" class="button1">Node JS Project</a>
         </div>
 
 
@@ -69,7 +63,7 @@
 
     <div id="contact">
         <h1>contact.</h1>
-        <form>
+        <form action = "mail.php" method="Post">
             <input type="text" placeholder="name" required>
             <input type="email" placeholder="email" required><br>
             <textarea placeholder="your message" required rows="5"></textarea><br>
